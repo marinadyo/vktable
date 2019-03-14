@@ -1,4 +1,14 @@
 .main {
-  width: 194px;
-  height: 42px;
+  width: 629px;
+  height: 345px;
+  margin-right: 18px;
+  border: 1px solid #d9e1e8;
+  box-shadow: 2px 2px 2px #eaf0f4;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.main__title {
+  background-color: #f9f5bf;
+  font-weight: bold;
+  font-size: 16px;
 }
