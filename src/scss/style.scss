@@ -1,0 +1,45 @@
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  font-weight: 400;
+  line-height: 1.4em;
+  min-height: 100vh;
+}
+
+table {
+  border: 1px solid #000000;
+  border-collapse: collapse;
+  width: 791px;
+}
+
+td, th {
+  border: 1px solid #000000;
+  padding: 24px 12px;
+}
+
+.logo {
+  width: 595px;
+  height: 42px;
+}
+
+.main {
+  width: 194px;
+  height: 42px;
+}
+
+.form {
+  width: 144px;
+}
+
+.welcome {
+  width: 629px;
+}
+
+.main-logo {
+  width: 153px;
+}
+
