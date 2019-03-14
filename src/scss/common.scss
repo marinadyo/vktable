@@ -12,5 +12,20 @@ body {
 
 .button {
   border: 1px solid #000000;
+  background-color: #2e6190;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
 }
 
+table {
+  padding: 0px;
+  border-spacing: 0px;
+  width: 630px;
+}
+
+td {
+  vertical-align: top;
+}

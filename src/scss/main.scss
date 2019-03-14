@@ -5,10 +5,21 @@
   border: 1px solid #d9e1e8;
   box-shadow: 2px 2px 2px #eaf0f4;
   border-radius: 6px 6px 0px 0px;
+  text-align: left;
+  padding-left: 33px;
+  padding-bottom: 19px;
 }
 
 .main__title {
   background-color: #f9f5bf;
   font-weight: bold;
   font-size: 16px;
+  margin: 0px;
+  border-radius: 6px 6px 0px 0px;
+  border: #f9f5bf;
+  padding-left: 0px;
+}
+
+.main__text {
+  font-weight: bold;
 }
