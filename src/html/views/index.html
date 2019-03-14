@@ -11,37 +11,79 @@
  <table>
    <tr>
      <td colspan="2">
-       <table>
+       <table class ="header">
          <tr>
-           <td class="logo">
+           <td class="header__logo">
                <img src="img/vkontakte.svg" class="main-logo"/>
            </td>
-           <td class="main">MAIN MENU</td>
+           <td class="header__nav">
+             <nav class="nav">
+               <ul class="nav__list" id="nav__list">
+                 <li class="nav__item">вход</li>
+                 <li class="nav__item">регистрация</li>
+                 <li class="nav__item">помощь</li>
+               </ul>
+             </nav>
+           </td>
          </tr>
        </table>
      </td>
    </tr>
    <tr>
-     <td class="form">
-       <form>
+     <td> <!--форма регистрации на сайте с вводом пароля и почты-->
+       <form class="form">
          <label for="login">Email:</label>
           <input type="text" name="login" id="login">
          <label for="password">Пароль:</label>
           <input type="text" name="password" id="password">
-         <input type="submit" value="Вход">
-         <input type="submit" value="Регистрация">
+         <button class="button">Вход</button>
+         <a href="/" class="button">Регистрация</a>
         </form>
      </td>
      <td>
-       <table class ="welcome">
+       <table class ="main"> <!--Основное меню с описанием сайта -->
          <tr>
-           <td>Welcome</td>
+           <td>
+             <h1 class="main__title">Добро пожаловать</h1>
+             <p class="main__text">
+               ВКонтакте.ру - универсальное средство поиска знакомых.<br>
+               Мы хотим, чтобы друзья, однокурсники, одноклассники, соседи и коллеги всегда оставались в контакте.<br>
+               Нас уже 11 665 926.<br>
+               <a href="/">ВКонтакте - самый посещаемый сайт в России.</a><br>
+               С помощью этого сайта Вы можете:<br>
+                <ul class="main__list">
+                  <li class="main__item">Найти людей, с которыми Вы когда-либо учились, работали или отдыхали.</li>
+                  <li class="main__item">Узнать больше о людях, которые Вас окружают, и найти новых друзей.</li>
+                  <li class="main__item">Всегда оставаться в контакте с теми, кто Вам дорог.</li>
+                </ul>
+             </p>
+           </td>
          </tr>
          <tr>
-           <td>1</td>
+           <td>
+             <table class="tour">
+               <tr class="tour__table">
+                 <td class="tour__style">
+                   Экскурсия по сайту <br>
+                   О том, что Вас ждем после регистрации
+                 </td>
+               </tr>
+             </table>
+               <button class="button">Вход</button>
+               <a href="/" class="button">Регистрация</a>
+           </td>
          </tr>
+       <table class="footer">
          <tr>
-           <td>2</td>
+           <td>
+             <button class="footer__button">о сайте</button>
+             <button class="footer__button">техподдержка</button>
+             <button class="footer__button">блог</button>
+             <button class="footer__button">правила</button>
+             <button class="footer__button">помощь</button>
+             <p class="footer__text">В Контакте © 2006-2008</p>
+             <button class="footer__button">Павел Дуров</button>
+           </td>
          </tr>
        </table>
      </td>
