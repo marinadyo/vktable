@@ -1,6 +1,5 @@
 ul#nav__list li{
   display: inline-block;
-  display: inline;
   float: right;
   padding: 1px 15px 10px 10px;
 }
@@ -13,4 +12,6 @@ ul#nav__list li{
 .nav__item {
   font-weight: bold;
   color: #ffffff;
+  vertical-align: 10px;
 }
+

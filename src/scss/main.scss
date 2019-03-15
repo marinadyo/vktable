@@ -13,13 +13,39 @@
 .main__title {
   background-color: #f9f5bf;
   font-weight: bold;
-  font-size: 16px;
-  margin: 0px;
-  border-radius: 6px 6px 0px 0px;
+  margin: -5px -1px 0 -35px;
   border: #f9f5bf;
-  padding-left: 0px;
+  font-size: 11px;
+  text-align: left;
+  text-indent: 8px;
+  height: 22px;
+  width: 630px;
+  box-shadow: 2px 2px 2px #d6d19b;
+  vertical-align: 10px;
 }
 
 .main__text {
   font-weight: bold;
+}
+
+p{
+  text-align: left;
+  padding: 0px;
+  margin: 15px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #2B587A;
+  font-weight: bold;
+}
+
+.main__button {
+  background-color: #36638E;
+  border-radius: 3px;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 7px -234px 4px 235px;
+  padding: 4px 6px;
 }

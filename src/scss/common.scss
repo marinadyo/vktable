@@ -3,7 +3,7 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: #fff;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 11px;
   font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   font-weight: 400;
   line-height: 1.4em;
@@ -11,13 +11,13 @@ body {
 }
 
 .button {
-  border: 1px solid #000000;
-  background-color: #2e6190;
-  border-radius: 4px;
+  background-color: #36638E;
+  border-radius: 3px;
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
-  font-size: 14px;
+  margin: 5px 1px 1px -1px;
+  padding: 4px 6px;
 }
 
 table {
@@ -28,3 +28,4 @@ table {
 td {
   vertical-align: top;
 }
+
