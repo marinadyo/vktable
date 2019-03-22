@@ -1,42 +1,31 @@
 .main {
-  width: 629px;
-  height: 345px;
   margin-right: 18px;
   border: 1px solid #d9e1e8;
   box-shadow: 2px 2px 2px #eaf0f4;
-  border-radius: 6px 6px 0px 0px;
+  border-radius: 6px 6px 0 0;
   text-align: left;
   padding-left: 33px;
   padding-bottom: 19px;
 }
 
+.main__wrapper {
+  padding: 0 10px;
+}
+
 .main__title {
   background-color: #f9f5bf;
   font-weight: bold;
-  margin: -5px -1px 0 -35px;
   border: #f9f5bf;
   font-size: 11px;
   text-align: left;
-  text-indent: 8px;
   width: 630px;
   box-shadow: 1px 1px 1px #d6d19b;
   vertical-align: 10px;
   line-height: 24px;
+  padding: 0 10px;
 }
 
 .main__text {
-  font-weight: bold;
-}
-
-p{
-  text-align: left;
-  padding: 0px;
-  margin: 15px 0px;
-}
-
-a {
-  text-decoration: none;
-  color: #2B587A;
   font-weight: bold;
 }
 
