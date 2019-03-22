@@ -1,6 +1,12 @@
 .form {
+  box-sizing: border-box;
   width: 144px;
   vertical-align: top;
   font-weight: bold;
   color: #808080;
+  padding: 0 10px;
+}
+
+.form__wrapper {
+  margin-top: 10px;
 }
